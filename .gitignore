@@ -1,0 +1,19 @@
+# C++ Backend build artifacts
+/backend/*.exe
+/backend/*.o
+/backend/quiz_server
+/backend/quiz_server.exe
+
+# Ignore local VSCode user settings
+/backend/.vscode/
+/frontend/.vscode/
+
+# Frontend dependency folder
+/frontend/node_modules/
+
+# Frontend build output
+/frontend/dist/
+
+# Common OS files
+.DS_Store
+*.log

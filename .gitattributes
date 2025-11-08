@@ -1,0 +1,28 @@
+# Set the default behavior to auto-detect text files.
+
+text=auto
+
+# Explicitly declare files that should always be treated as text 
+# and have their line endings normalized.
+
+*.cpp text
+*.h text
+*.hpp text
+*.ipp text
+*.js text
+*.jsx text
+*.css text
+*.json text
+*.md text
+*.svg text
+*.txt text
+
+# Explicitly declare files that are binary and should never be touched.
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.exe binary
+*.lib binary
+*.svg binary
