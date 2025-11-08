@@ -25,32 +25,40 @@ This project was built to demonstrate core Object-Oriented Programming (OOP) pri
 ## Project Structure
 
 adaptive-quiz-fullstack/
+│
+├── .gitattributes
+├── .gitignore            (Ignores build files, node_modules, etc.)
+├── README.md             (This file)
+│
 ├── backend/
-│   ├── asio/
+│   ├── asio/             (Asio library folder)
 │   ├── asio.hpp
 │   ├── crow_all.h
 │   ├── json.hpp
-│   ├── backend_server.cpp (Main server file)
+│   ├── backend_server.cpp  (Main C++ server)
 │   ├── Question.h
+│   ├── QuestionBank.h
+│   ├── QuestionBank.cpp
 │   ├── UserStats.h
 │   ├── UserStats.cpp
-│   ├── ... (all other C++ source files) ...
+│   ├── FillInTheBlankQuestion.h
+│   ├── FillInTheBlankQuestion.cpp
+│   ├── ... (all other .h and .cpp files) ...
 │   ├── questions.txt
 │   └── .vscode/
 │       └── tasks.json
 │
-├── frontend/
-│   ├── src/
-│   │   ├── App.css
-│   │   ├── App.jsx
-│   │   ├── index.css
-│   │   └── main.jsx
-│   ├── .gitignore
-│   ├── package.json
-│   └── vite.config.js
-│
-├── .gitignore
-└── README.md
+└── frontend/
+    ├── src/
+    │   ├── App.css
+    │   ├── App.jsx
+    │   ├── index.css
+    │   └── main.jsx
+    ├── .gitignore
+    ├── package.json
+    ├── vite.config.js
+    └── ... (other React files)
+
 
 ## How to Run
 
